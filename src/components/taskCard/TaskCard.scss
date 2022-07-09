@@ -1,0 +1,20 @@
+.TaskCard {
+    // background: linear-gradient(-60deg, rgb(255, 191, 73), rgba(255, 166, 0, 0.826));
+    background: linear-gradient(-60deg, rgb(42, 255, 130), rgba(4, 200, 93, 0.826));
+    width: 80%;
+    margin: 1rem auto;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.01);
+    }
+
+    &:active {
+        transform: scale(1);
+        background: red;
+    }
+}
